@@ -1,5 +1,5 @@
 venv
 _*pycache*_
-qr_codes
+#qr_codes should be there to excute pytest on GitHub Actions
 *.sqlite
 .vscode
