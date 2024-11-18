@@ -10,7 +10,7 @@ setup_logging()
 
 # This ensures that the directory for storing QR codes exists when the application starts.
 # If it doesn't exist, it will be created.
-#create_directory(QR_DIRECTORY)
+create_directory(QR_DIRECTORY)
 
 # This creates an instance of the FastAPI application.
 app = FastAPI(
